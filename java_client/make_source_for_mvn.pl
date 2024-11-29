@@ -41,7 +41,7 @@ sub convert {
 	if (! -d $outSubDir) { mkpath $outSubDir or die "$!" };
 
 	my $inPath = "$file";
-	my $outPath = "$outSubDir/$file";
+	my $outPath = "$outSubDir/$file"; 
 
 	# print "$inPath $outPath \n";
 
